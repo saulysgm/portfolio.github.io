@@ -1,0 +1,38 @@
+baseurl = "http://example.org"
+title = "Gytis Markevicius"
+theme = "dimension"
+languageCode = "en-lt"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[-->Freelancer<!--]--><br />
+                <!--[-->Graphic Designer and Web Developer<!--]-->'
+  logoimage = "/images/mainLogo.png"
+  copyright = "Untitled"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/markevicius-gytis/"
+  targer = "#"
+
+[[params.social]]
+  medium = "Behance"
+  icon = "behance"
+  link = "https://www.behance.net/gytmarkevi671e"
+  targer = "#"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.lt]
+languageName = "Lithuanian"
+weight = 2
+title = "Gytis Markevičius"
+description = '<!--[-->Internetinių Puslapių Kūrėjas<!--]--><br />
+                <!--[-->Ir Grafikos Dizaineris <!--]-->'
+
